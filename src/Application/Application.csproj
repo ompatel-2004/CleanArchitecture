@@ -1,8 +1,19 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <RootNamespace>CleanArchitecture.Application</RootNamespace>
     <AssemblyName>CleanArchitecture.Application</AssemblyName>
+
+    <!-- NuGet Packaging Settings (NEW) -->
+    <TargetFramework>net8.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>CleanArchitecture.Application</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Om</Authors>
+    <Company>MyCompany</Company>
+    <Description>Application layer of Clean Architecture template</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/jasontaylordev/CleanArchitecture</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
